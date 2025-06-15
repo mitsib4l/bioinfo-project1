@@ -1,0 +1,80 @@
+>Human_INS vs QMS45324
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+
+>Human_INS vs XP_004050475
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+
+>Human_INS vs AAP36446
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+
+>Human_INS vs NP_000198
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+
+>Human_INS vs XP_024110665
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 ||||||||||||||||||||||.|||||||||||||||||||||||||||||||||||||
+query             0 MALWMRLLPLLALLALWGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+
+>Human_INS vs AKI70564
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 |||||||||||||||||||||||||||||||||||||||||||||||.||||||||||||
+query             0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGLFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+
+>Human_INS vs QMS45321
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+
+>Human_INS vs NP_001008996
+target            0 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                  0 |||||||||||.||||||||||.|||||||||||||||||||||||||||||||||||||
+query             0 MALWMRLLPLLVLLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+
+target           60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+                 60 |||||||||||||||||||||||||||||||||||||||||||||||||| 110
+query            60 LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN 110
+
+

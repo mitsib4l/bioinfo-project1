@@ -1,0 +1,27 @@
+>sp|P01308.1|INS_HUMAN RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>QMS45324 gb|QMS45324.1| insulin isoform UB [Homo sapiens]
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>XP_004050475 ref|XP_004050475.2| insulin isoform X1 [Gorilla gorilla gorilla]
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>AAP36446 gb|AAP36446.1| Homo sapiens insulin, partial [synthetic construct] >gb|AAX29480.1| insulin, partial [synthetic construct] >gb|AAX29481.1| insulin, partial [synthetic construct]
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>NP_000198 ref|NP_000198.1| insulin preproprotein [Homo sapiens] >ref|NP_001172026.1| insulin preproprotein [Homo sapiens] >ref|NP_001172027.1| insulin preproprotein [Homo sapiens] >ref|NP_001278826.1| insulin preproprotein [Homo sapiens] >ref|XP_063566949.1| insulin isoform X2 [Gorilla gorilla gorilla] >ref|XP_063566950.1| insulin isoform X2 [Gorilla gorilla gorilla] >sp|P01308.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Homo sapiens] >sp|Q6YK33.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Gorilla gorilla gorilla] >pdb|6B3Q|a Chain a, Insulin [Homo sapiens] >pdb|6B3Q|b Chain b, Insulin [Homo sapiens] >pdb|6B70|a Chain a, Insulin [Homo sapiens] >pdb|6B70|c Chain c, Insulin [Homo sapiens] >pdb|6BFC|a Chain a, Insulin [Homo sapiens] >pdb|6BFC|b Chain b, Insulin [Homo sapiens] >pdb|6JK8|C Chain C, Insulin [Homo sapiens] >pdb|6JK8|D Chain D, Insulin [Homo sapiens] >pdb|6TC2|A Chain A, Insulin [Homo sapiens] >pdb|6TC2|B Chain B, Insulin [Homo sapiens] >pdb|6TC2|C Chain C, Insulin [Homo sapiens] >pdb|6TC2|D Chain D, Insulin [Homo sapiens] >pdb|6TC2|E Chain E, Insulin [Homo sapiens] >pdb|6TC2|F Chain F, Insulin [Homo sapiens] >pdb|6TC2|G Chain G, Insulin [Homo sapiens] >pdb|6TC2|H Chain H, Insulin [Homo sapiens] >pdb|6TC2|I Chain I, Insulin [Homo sapiens] >pdb|6TC2|J Chain J, Insulin [Homo sapiens] >pdb|6TC2|K Chain K, Insulin [Homo sapiens] >pdb|6TC2|L Chain L, Insulin [Homo sapiens] >pdb|7STH|C Chain C, Insulin [Homo sapiens] >pdb|7STH|D Chain D, Insulin [Homo sapiens] >pdb|7STI|C Chain C, Insulin [Homo sapiens] >pdb|7STJ|C Chain C, Insulin [Homo sapiens] >pdb|7STJ|D Chain D, Insulin [Homo sapiens] >pdb|7STK|C Chain C, Insulin [Homo sapiens] >pdb|7STK|D Chain D, Insulin [Homo sapiens] >pdb|8EYX|D Chain D, Insulin [Homo sapiens] >pdb|8EYX|E Chain E, Insulin [Homo sapiens] >pdb|8EYX|F Chain F, Insulin [Homo sapiens] >pdb|8EYX|G Chain G, Insulin [Homo sapiens] >pdb|8EYY|C Chain C, Insulin [Homo sapiens] >pdb|8EYY|D Chain D, Insulin [Homo sapiens] >pdb|8EYY|E Chain E, Insulin [Homo sapiens] >pdb|8EYY|F Chain F, Insulin [Homo sapiens] >pdb|8EZ0|D Chain D, Insulin [Homo sapiens] >pdb|8EZ0|E Chain E, Insulin [Homo sapiens] >pdb|8EZ0|F Chain F, Insulin [Homo sapiens] >pdb|8EZ0|G Chain G, Insulin [Homo sapiens] >pdb|8YYS|C Chain C, Insulin [Homo sapiens] >pdb|8YYS|D Chain D, Insulin [Homo sapiens] >gb|AAN06935.1| insulin precursor [Gorilla gorilla] >gb|AAX42025.1| insulin [synthetic construct] >emb|SJX25028.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] >gb|AAA59172.1| insulin [Homo sapiens] >gb|AAA59173.1| insulin [Homo sapiens]
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>XP_024110665 ref|XP_024110665.1| insulin isoform X2 [Pongo abelii] >ref|XP_054295337.1| insulin [Pongo pygmaeus] >ref|XP_054380089.1| insulin isoform X2 [Pongo abelii] >sp|Q8HXV2.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Pongo pygmaeus] >gb|AAN06937.1| insulin precursor [Pongo pygmaeus] >gb|PNJ16419.1| INS isoform 1 [Pongo abelii] >gb|PNJ16420.1| INS isoform 2 [Pongo abelii] >gb|PNJ16421.1| INS isoform 3 [Pongo abelii]
+MALWMRLLPLLALLALWGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>AKI70564 gb|AKI70564.1| INS, partial [synthetic construct]
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGLFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>QMS45321 gb|QMS45321.1| insulin isoform U1 [Homo sapiens]
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+>NP_001008996 ref|NP_001008996.1| insulin preproprotein [Pan troglodytes] >sp|P30410.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Pan troglodytes] >gb|AAN06933.1| insulin precursor [Pan troglodytes] >emb|CAA43403.1| Preproinsulin [Pan troglodytes]
+MALWMRLLPLLVLLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
