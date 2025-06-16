@@ -1,8 +1,16 @@
-from Bio.Blast import NCBIWWW
-from Bio import SeqIO
-from Bio.Blast import NCBIXML
+from Bio.Blast import NCBIWWW, NCBIXML
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 
-# Ορισμός της άγνωστης αλληλουχίας (αγνοώντας τα 'X')
+def run_blastp(seq_record, db="nr", hits=10):
+    print("Running BLASTP...")
+    result_handle = NCBIWWW.qblast("blastp", db, seq_record.format("fasta"), hitlist_size=hits, format_type="XML")
+    with open("blast_results.xml", "w") as f:
+        f.write(result_handle.read())
+    result_handle.close()
+    print("Αποθηκεύτηκαν τα αποτελέσματα στο blast_results.xml.")
+
+# Αφαίρεση των 'X' από την ακολουθία
 raw_mystery_sequence = """
 GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -17,40 +25,39 @@ GAAGRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXGVVGLPGQR
 """.replace('\n', '')
 
-mystery_seq = raw_mystery_sequence.replace('X', '')
+mystery_sequence = raw_mystery_sequence.replace('X', '')
+mystery_record = SeqRecord(Seq(mystery_sequence), id="Mystery", description="Mystery protein (no X)")
+query_length = len(mystery_sequence)
 
-# Υποβολή BLASTP ερωτήματος
-result_handle = NCBIWWW.qblast(
-    program="blastp",
-    database="nr",
-    sequence=mystery_seq,
-    expect=0.1,  # Αυστηρό κατώφλι
-    composition_based_statistics=True,
-    hitlist_size=50,  # Περιορισμός στον αριθμό των hits
-    format_type="XML"  # Επιστροφή αποτελεσμάτων σε XML μορφή
-)
+# Εκτέλεση BLAST και αποθήκευση αποτελεσμάτων
+run_blastp(mystery_record)
 
-# Αποθήκευση των αποτελεσμάτων
-with open("blast_results.xml", "w") as f:
-    f.write(result_handle.read())
-result_handle.close()
-
-query_length = 234  
-
+# Διάβασμα του αρχείου αποτελεσμάτων και εκτύπωση μόνο για οργανισμό που ξεκινά με "Tyr"
 with open("blast_results.xml") as blast_file:
     blast_records = NCBIXML.parse(blast_file)
+    found = False
     for record in blast_records:
         for alignment in record.alignments:
-            hit_length = alignment.length
-            if hit_length == query_length:  # Φιλτράρισμα μήκους
+            org_name = None
+            if "[" in alignment.title and "]" in alignment.title:
+                org_name = alignment.title.split("[")[-1].split("]")[0]
+            if org_name and org_name.startswith("Tyr"):
+                found = True
+                print("\nΒρέθηκε hit με οργανισμό που ξεκινά με 'Tyr':")
+                print(f"ID: {alignment.accession}")
+                print(f"Organism: {org_name}")
+                print(f"Description: {alignment.title}")
+                print(f"Length: {alignment.length}")
+                print(f"Query length: {query_length}")
                 for hsp in alignment.hsps:
-                    if hsp.expect < 0.1:  # Επιπλέον φιλτράρισμα E-value
-                        print(f"Ομόλογη πρωτεΐνη: {alignment.title}")
-                        print(f"Οργανισμός: {alignment.hit_def}")
-                        print(f"Μήκος: {hit_length}")
-                        print(f"E-value: {hsp.expect}")
-                        print(f"Αναλογία: {hsp.identities / hsp.align_length * 100:.2f}%")
-                        print("------")
+                    print(f"E-value: {hsp.expect}")
+                    print(f"Identity: {hsp.identities}/{hsp.align_length} ({100 * hsp.identities / hsp.align_length:.2f}%)")
+                    print(f"Query: {hsp.query}")
+                    print(f"Match: {hsp.match}")
+                    print(f"Subject: {hsp.sbjct}")
+                print("-" * 60)
+    if not found:
+        print("Δεν βρέθηκε οργανισμός που να ξεκινά με 'Tyr'.")
 
 
 
