@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3823519</BlastOutput_query-ID>
+  <BlastOutput_query-def>MysteryEnds First and last known parts</BlastOutput_query-def>
+  <BlastOutput_query-len>42</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3823519</Iteration_query-ID>
+  <Iteration_query-def>MysteryEnds First and last known parts</Iteration_query-def>
+  <Iteration_query-len>42</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_072270794.1|</Hit_id>
+  <Hit_def>collagen alpha-1(I) chain [Pyxicephalus adspersus] &gt;tpg|DBA22232.1| TPA: hypothetical protein GDO54_013279 [Pyxicephalus adspersus]</Hit_def>
+  <Hit_accession>XP_072270794</Hit_accession>
+  <Hit_len>1443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.39947e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGNNGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>8.40759</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|WBU87778.1|</Hit_id>
+  <Hit_def>COL1A1 [Cloning vector FC550A_Dinosaur_COL1A1]</Hit_def>
+  <Hit_accession>WBU87778</Hit_accession>
+  <Hit_len>1453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.42705e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>387</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGNSGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q9YIB4.1|</Hit_id>
+  <Hit_def>RecName: Full=Collagen alpha-1(I) chain; AltName: Full=Alpha-1 type I collagen; Flags: Precursor [Cynops pyrrhogaster] &gt;dbj|BAA36973.1| alpha 1 type I collagen [Cynops pyrrhogaster]</Hit_def>
+  <Hit_accession>Q9YIB4</Hit_accession>
+  <Hit_len>1450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>8.04452e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGSPGIAGAPGFPGARGAPGPQGPAGAPGPKGNNGEPG</Hsp_hseq>
+      <Hsp_midline>GATG+PGIAGAPGFPGARGAPGPQGP+GAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_069093929.1|</Hit_id>
+  <Hit_def>collagen alpha-1(I) chain [Pleurodeles waltl]</Hit_def>
+  <Hit_accession>XP_069093929</Hit_accession>
+  <Hit_len>1450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.20093e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGTPGPQGPAGAPGPKGNNGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG PGPQGP+GAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.75817</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGDDGESGKPGRPGERGAPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G +G PG PG RGAPGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.29863</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>906</Hsp_hit-from>
+      <Hsp_hit-to>953</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GAPGIAGAPGFPGARGAPGPQGPSGAP---------GPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>GEPGAAGPPGPSGEKGSPGSDGPAGAPGIPGPQGIAGQRGVVGLPGQR</Hsp_hseq>
+      <Hsp_midline>G PG AG PG  G +G+PG  GP+GAP         G +GVVGLPGQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_064255658.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: collagen alpha-1(I) chain [Passer domesticus]</Hit_def>
+  <Hit_accession>XP_064255658</Hit_accession>
+  <Hit_len>1458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>3.73208e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>392</Hsp_hit-from>
+      <Hsp_hit-to>431</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGPSGPQGPSGAPGPKGNTGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG  GPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>9.94355</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGDDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_014744888.1|</Hit_id>
+  <Hit_def>PREDICTED: collagen alpha-1(I) chain [Sturnus vulgaris]</Hit_def>
+  <Hit_accession>XP_014744888</Hit_accession>
+  <Hit_len>1461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>3.91902e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGPSGPQGPSGAPGPKGNTGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG  GPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CAM5932181.1|</Hit_id>
+  <Hit_def>unnamed protein product [Sitta europaea]</Hit_def>
+  <Hit_accession>CAM5932181</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>4.0753e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGPSGPQGPSGAPGPKGNTGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG  GPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>emb|CAM5938832.1|</Hit_id>
+  <Hit_def>unnamed protein product [Spinus spinus]</Hit_def>
+  <Hit_accession>CAM5938832</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>4.11534e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGPSGPQGPSGAPGPKGNTGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG  GPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_033367524.1|</Hit_id>
+  <Hit_def>collagen alpha-1(I) chain [Parus major]</Hit_def>
+  <Hit_accession>XP_033367524</Hit_accession>
+  <Hit_len>1487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>4.15561e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGPSGPQGPSGAPGPKGNTGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG  GPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_054505513.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: collagen alpha-1(I) chain [Agelaius phoeniceus]</Hit_def>
+  <Hit_accession>XP_054505513</Hit_accession>
+  <Hit_len>1459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.36399e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGPSGPQGPSGAPGPKGNTGEPG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG  GPQGPSGAPGPKG  G PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|P86289.1|</Hit_id>
+  <Hit_def>RecName: Full=Collagen alpha-1(I) chain; AltName: Full=Alpha-1 type I collagen [Brachylophosaurus canadensis]</Hit_def>
+  <Hit_accession>P86289</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.12491e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>33</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPK</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGPSGPQGPSGAPGPK</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGARG  GPQGPSGAPGPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|NP_001011005.1|</Hit_id>
+  <Hit_def>collagen alpha-1(I) chain precursor [Xenopus tropicalis] &gt;gb|AAH82718.1| hypothetical LOC496414 [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>NP_001011005</Hit_accession>
+  <Hit_len>1449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.41108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGAR------------------GAPGPQGPSGAPGPKGVVG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPGGAPGPKGNNGEPGAQGNKGEPGAKGESG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGAR                  G PG QG  G PG KG  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>6.9703</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KAE8575431.1|</Hit_id>
+  <Hit_def>hypothetical protein XENTR_v10003837 [Xenopus tropicalis] &gt;gb|KAE8575432.1| hypothetical protein XENTR_v10003837 [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>KAE8575431</Hit_accession>
+  <Hit_len>1449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.54194</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGAR------------------GAPGPQGPSGAPGPKGVVG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPGGAPGPKGNNGEPGAQGNKGEPGAKGESG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGAR                  G PG QG  G PG KG  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>7.39541</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|KAE8575433.1|</Hit_id>
+  <Hit_def>hypothetical protein XENTR_v10003837 [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>KAE8575433</Hit_accession>
+  <Hit_len>1372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>2.13445</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGAR------------------GAPGPQGPSGAPGPKGVVG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPGGAPGPKGNNGEPGAQGNKGEPGAKGESG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGAR                  G PG QG  G PG KG  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>9.27895</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_040293540.1|</Hit_id>
+  <Hit_def>collagen alpha-1(I) chain isoform X1 [Bufo bufo]</Hit_def>
+  <Hit_accession>XP_040293540</Hit_accession>
+  <Hit_len>1441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.89752</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>899</Hsp_hit-from>
+      <Hsp_hit-to>949</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAP---------GPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>GRSGEPGAAGPPGPSGEKGSPGSDGPAGAPGIPGPQGIAGTRGTVGLPGQR</Hsp_hseq>
+      <Hsp_midline>G +G PG AG PG  G +G+PG  GP+GAP         G +G VGLPGQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_040293541.1|</Hit_id>
+  <Hit_def>collagen alpha-1(I) chain isoform X2 [Bufo bufo]</Hit_def>
+  <Hit_accession>XP_040293541</Hit_accession>
+  <Hit_len>1396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>3.10445</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>899</Hsp_hit-from>
+      <Hsp_hit-to>949</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGARGAPGPQGPSGAP---------GPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>GRSGEPGAAGPPGPSGEKGSPGSDGPAGAPGIPGPQGIAGTRGTVGLPGQR</Hsp_hseq>
+      <Hsp_midline>G +G PG AG PG  G +G+PG  GP+GAP         G +G VGLPGQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|PIO39501.1|</Hit_id>
+  <Hit_def>Collagen alpha-1(I) chain [Aquarana catesbeiana]</Hit_def>
+  <Hit_accession>PIO39501</Hit_accession>
+  <Hit_len>1409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.70741</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>34</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGAR------------------GAPGPQGPSGAPGPKG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPGGSPGPKGNNGEPGAQGNKGEPGAKG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGAR                  G PG QG  G PG KG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>7.84616</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|PIO39499.1|</Hit_id>
+  <Hit_def>Collagen alpha-1(I) chain [Aquarana catesbeiana]</Hit_def>
+  <Hit_accession>PIO39499</Hit_accession>
+  <Hit_len>1445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.9725</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>34</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGAR------------------GAPGPQGPSGAPGPKG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPGGSPGPKGNNGEPGAQGNKGEPGAKG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGAR                  G PG QG  G PG KG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>7.84644</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_073463878.1|</Hit_id>
+  <Hit_def>collagen alpha-1(I) chain [Aquarana catesbeiana]</Hit_def>
+  <Hit_accession>XP_073463878</Hit_accession>
+  <Hit_len>1445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.9725</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>34</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGAR------------------GAPGPQGPSGAPGPKG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPGGSPGPKGNNGEPGAQGNKGEPGAKG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGAR                  G PG QG  G PG KG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>7.84644</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|PIO39500.1|</Hit_id>
+  <Hit_def>Collagen alpha-1(I) chain [Aquarana catesbeiana]</Hit_def>
+  <Hit_accession>PIO39500</Hit_accession>
+  <Hit_len>1427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.17323</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>34</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GATGAPGIAGAPGFPGAR------------------GAPGPQGPSGAPGPKG</Hsp_qseq>
+      <Hsp_hseq>GATGAPGIAGAPGFPGARGAPGPQGPGGSPGPKGNNGEPGAQGNKGEPGAKG</Hsp_hseq>
+      <Hsp_midline>GATGAPGIAGAPGFPGAR                  G PG QG  G PG KG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>8.24315</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGAPGIAGAPGFPGARGAPGPQGPSGAPGPKGVVGLPGQR</Hsp_qseq>
+      <Hsp_hseq>NGEDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHR</Hsp_hseq>
+      <Hsp_midline> G  G AG PG PG RG PGPQG  G PG  G+ G+ G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>933419454</Statistics_db-num>
+      <Statistics_db-len>1946512461</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
