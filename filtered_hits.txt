@@ -1,0 +1,12 @@
+
+Βρέθηκε hit με οργανισμό που ξεκινά με 'Tyr':
+ID: P0C2W2
+Organism: Tyrannosaurus rex
+Description: sp|P0C2W2.2| RecName: Full=Collagen alpha-1(I) chain; AltName: Full=Alpha-1 type I collagen [Tyrannosaurus rex]
+Length: 570
+E-value: 0.00320301
+Identity: 33/33 (100.00%)
+Query: GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPK
+Match: GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPK
+Subject: GATGAPGIAGAPGFPGARGAPGPQGPSGAPGPK
+------------------------------------------------------------
